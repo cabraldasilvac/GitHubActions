@@ -9,6 +9,6 @@
     [X] - Encontrar código morto na aplicação
     [X] - Rodar os testes
 
-###### Crédito dogcode
+###### Crédito:
 
 [dogcode](https://www.youtube.com/watch?v=MIVx1qniNKY&ab_channel=dogcode)
