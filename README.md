@@ -2,7 +2,7 @@
 
 ### Github Actions
 
-### Roteiro
+### Roteiro da configuração
 
     [X] - Estrutura inicial
     [X] - Instale as dependências do projeto
