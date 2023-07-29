@@ -1,5 +1,5 @@
 function test() {
-  return "Ola";
+  return "Olá";
 }
 
 export default test;
