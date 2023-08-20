@@ -1,6 +1,6 @@
 # Estudando sobre esta funcionalidade no Github
 
-### Github Actions
+## Github Actions
 
 ### Roteiro da configuração
 
