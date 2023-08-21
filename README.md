@@ -4,8 +4,8 @@
 
 ### Roteiro da configuração
 
-    [X] - Estrutura inicial
-    [X] - Instale as dependências do projeto
+    [X] - Estrutura inicial do projeto
+    [X] - Instalar as dependências do projeto
     [X] - Encontrar código morto na aplicação
     [X] - Rodar os testes
 
