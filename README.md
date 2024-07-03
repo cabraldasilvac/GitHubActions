@@ -1,4 +1,4 @@
-# Estudando sobre esta funcionalidade no Github
+# Estudando sobre Github Actions  no Github
 
 ## Github Actions
 
