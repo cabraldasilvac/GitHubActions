@@ -1,4 +1,4 @@
-# Estudando sobre Github Actions  no Github
+# Estudando sobre Github Actions
 
 ## Github Actions
 
@@ -8,6 +8,34 @@
     [X] - Instalar as dependências do projeto
     [X] - Encontrar código morto na aplicação
     [X] - Rodar os testes
+
+### Como usar o projeto
+
+- Clonar o projeto
+
+  [Git Clone](https://github.com/cabraldasilvac/GitHubActions.git)
+
+```bash
+    git clone https://github.com/cabraldasilvac/GitHubActions.git
+```
+
+- Instalar as dependências do projeto
+
+```bash
+      yarn install
+```
+
+- Rodar o projeto
+
+```bash
+      yarn dev
+```
+
+- Rodar o teste
+
+```bash
+        yarn jest
+```
 
 ###### Crédito:
 
