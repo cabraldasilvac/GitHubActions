@@ -1,42 +1,76 @@
-# Estudando sobre Github Actions
+# Studying about Github Actions
 
-## Github Actions
+## 🧪 GitHub Actions with TypeScript
 
-### Roteiro da configuração
+> A practical playground to learn and experiment with GitHub Actions, TypeScript, testing, linting, and dead code detection.
 
-    [X] - Estrutura inicial do projeto
-    [X] - Instalar as dependências do projeto
-    [X] - Encontrar código morto na aplicação
-    [X] - Rodar os testes
+## ✅ Features
 
-### Como usar o projeto
+- TypeScript with strict configuration
+- Unit tests with Jest
+- Dead code detection with `ts-prune`
+- Code quality with ESLint (flat config)
+- Continuous Integration via GitHub Actions
 
-- Clonar o projeto
+---
 
-  [Git Clone](https://github.com/cabraldasilvac/GitHubActions.git)
+## ⚙️ Setup Instructions
+
+---
+
+1. Clone the repository
 
 ```bash
-    git clone https://github.com/cabraldasilvac/GitHubActions.git
+git clone https://github.com/cabraldasilvac/GitHubActions.git
+cd GitHubActions
 ```
 
-- Instalar as dependências do projeto
+2. Install dependencies
 
 ```bash
       yarn install
 ```
 
-- Rodar o projeto
+3. Run the development server
 
 ```bash
       yarn dev
 ```
 
-- Rodar o teste
+4. Run unit tests
 
 ```bash
         yarn jest
 ```
 
-###### Crédito:
+5. Run linter
 
-[dogcode](https://www.youtube.com/watch?v=MIVx1qniNKY&ab_channel=dogcode)
+```bash
+yarn lint
+```
+
+6. Run type checker
+
+```bash
+yarn typecheck
+```
+
+🛠️ GitHub Actions Workflow
+
+This project includes a CI workflow that automatically:
+
+Installs dependencies
+Runs ESLint and ts-prune to detect dead code
+Runs unit tests using Jest
+Check the .github/workflows/pull_request.yml file for more details.
+
+🎯 Roadmap
+
+[✓] Initial project structure
+[✓] Install dependencies
+[✓] Dead code analysis (ts-prune)
+[✓] Unit testing (jest)
+[✓] Add Prettier for code formatting
+[✓] Add coverage report
+
+Inspired by [dogcode's GitHub Actions tutorial](https://www.youtube.com/watch?v=MIVx1qniNKY&ab_channel=dogcode)
