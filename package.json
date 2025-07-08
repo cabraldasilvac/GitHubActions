@@ -1,6 +1,7 @@
 {
-  "name": "APP",
+  "name": "gh-actions-ts-playground",
   "version": "1.1.0",
+  "description": "A playground project to learn and test GitHub Actions with TypeScript.",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
